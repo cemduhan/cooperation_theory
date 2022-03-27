@@ -13,4 +13,4 @@ class Player:
     def Print(self):
         print("Player Name: " + self.name)
         print("Behaviour: " + self.behaviour)
-        print("Score: " + self.score)
+        print("Score: " + str(self.score))

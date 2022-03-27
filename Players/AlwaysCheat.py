@@ -1,5 +1,5 @@
+from Players.Player import Player
 from RoundState import PlayerAction
-from Player import Player
 
 class AlwaysCheat(Player):
     opponent_last_play = PlayerAction.CHEAT

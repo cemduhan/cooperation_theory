@@ -1,5 +1,6 @@
+from Players.Player import Player
 from RoundState import PlayerAction
-from Player import Player
+
 
 class AlwaysCooperate(Player):
     opponent_last_play = PlayerAction.COOPERATE
